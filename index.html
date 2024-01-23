@@ -22,7 +22,8 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        'para-color': '#13131899',
+                        'main-color': '#131318',
                     }
                 }
             }
@@ -38,6 +39,7 @@
 <body class="font-manrope mx-5">
     <header class="container lg:mx-auto">
         <nav>
+            <!-- navbar -->
             <div class="navbar bg-base-100 mt-5">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -75,6 +77,7 @@
             </div>
         </nav>
         <div class="my-5">
+            <!-- banner section -->
             <div class="carousel">
 
                 <div id="slide1" class="carousel-item relative w-full">
@@ -92,16 +95,86 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-[#131318] ml-auto lg:-top-48 lg:-left-6 relative mt-4 p-8 rounded-lg lg:w-[550px]">
+            <!-- banner bonus section -->
+            <div
+                class="bg-main-color  lg:-mb-20 ml-auto lg:-top-52 lg:-left-6 relative mt-4 p-8 rounded-lg lg:w-[550px]">
                 <h2 class="text-2xl text-white font-extrabold mb-4">Meet all the heroes from the field</h2>
                 <p class="font-medium text-[#ffffff99]">Gather in the field's embrace, where valiant heroes unite,
                     forging a tapestry of courage and resilience.</p>
             </div>
         </div>
     </header>
+    <hr class="max-w-6xl mx-auto">
     <main>
+        <!-- hockey club -->
         <section>
-
+            <div class="text-center">
+                <h1 class="text-xl lg:text-4xl font-extrabold mb-4 lg:mb-6 mt-4 lg:mt-8 text-main-color">Professional
+                    Hockeys Club</h1>
+                <p class="font-medium text-para-color max-w-72 lg:max-w-xl mx-auto mb-4 lg:mb-6">Dedicated to
+                    excellence, our professional hockey club exemplifies teamwork, skill, and passion, embodying the
+                    spirit of competition in every game.</p>
+            </div>
+            <hr class="max-w-6xl mx-auto mb-6 lg:mb-12">
+            <!-- progress container -->
+            <div class="flex flex-col lg:flex-row gap-6 justify-center mb-10 lg:mb-20">
+                <!-- progress 1 -->
+                <div class="text-center">
+                    <div class="radial-progress bg-[#E7E7E8] text-red-800 mb-6" style="--value:87;" role="progressbar">
+                        87%</div>
+                    <h2 class="text-xl font-semibold text-main-color mb-4">Prayer Facility</h2>
+                    <p class="font-normal text-para-color max-w-64 mx-auto">Our prayer facility invites reflection, solace, and spiritual
+                        connection.</p>
+                </div>
+                <!-- progress 1 -->
+                <div class="text-center">
+                    <div class="radial-progress bg-[#E7E7E8] text-[#34D399] mb-6" style="--value:87;" role="progressbar">
+                        87%</div>
+                    <h2 class="text-xl font-semibold text-main-color mb-4">Prayer Facility</h2>
+                    <p class="font-normal text-para-color max-w-64 mx-auto">Our prayer facility invites reflection, solace, and spiritual
+                        connection.</p>
+                </div>
+                <!-- progress 1 -->
+                <div class="text-center">
+                    <div class="radial-progress bg-[#E7E7E8] text-[#FBBF24] mb-6" style="--value:87;" role="progressbar">
+                        87%</div>
+                    <h2 class="text-xl font-semibold text-main-color mb-4">Prayer Facility</h2>
+                    <p class="font-normal text-para-color max-w-64 mx-auto">Our prayer facility invites reflection, solace, and spiritual
+                        connection.</p>
+                </div>
+                <!-- progress 1 -->
+                <div class="text-center">
+                    <div class="radial-progress bg-[#E7E7E8] text-[#0EA5E9] mb-6" style="--value:87;" role="progressbar">
+                        87%</div>
+                    <h2 class="text-xl font-semibold text-main-color mb-4">Prayer Facility</h2>
+                    <p class="font-normal text-para-color max-w-64 mx-auto">Our prayer facility invites reflection, solace, and spiritual
+                        connection.</p>
+                </div>
+            </div>
+        </section>
+        <hr class="max-w-6xl mx-auto mb-6 lg:mb-12">
+        <!-- program section -->
+        <section>
+            <div class="text-center mt-4 lg:mt-8">
+                <h1 class="text-main-color text-xl lg:text-4xl font-extrabold mb-4 lg:mb-6">Program Sections</h1>
+                <p class="text-para-color font-medium lg:max-w-[607px] mx-auto mb-6 lg:mb-8">Our program sections offer diverse learning experiences, each meticulously designed to foster skills and knowledge. Explore the breadth of possibilities and embark on a transformative educational journey.</p>
+            </div>
+            <hr class="max-w-6xl mx-auto mb-6 lg:mb-12">
+            <!-- program grid container -->
+            <div>
+                <div>
+                    <div class="hero" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                          <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <button class="btn btn-primary">Get Started</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
         </section>
 
     </main>

@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/ce3cdae5b0.js" crossorigin="anonymous"></script>
     <!-- customize with daisyui -->
     <script>
         tailwind.config = {
@@ -26,17 +29,80 @@
         }
     </script>
     <style>
-        .font-manrope{
+        .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
     </style>
 </head>
 
-<body>
-    <header>
+<body class="font-manrope mx-5">
+    <header class="container lg:mx-auto">
+        <nav>
+            <div class="navbar bg-base-100 mt-5">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a> <span class="text-[#FF4240] font-bold">Home</span></a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a> <span class="text-[#FF4240] font-bold">Home</span></a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <i class="fa-solid fa-magnifying-glass pr-6 text-gray"></i>
+                    <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <div class="my-5">
+            <div class="carousel">
 
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="/Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="/Images/4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[#131318] ml-auto lg:-top-48 lg:-left-6 relative mt-4 p-8 rounded-lg lg:w-[550px]">
+                <h2 class="text-2xl text-white font-extrabold mb-4">Meet all the heroes from the field</h2>
+                <p class="font-medium text-[#ffffff99]">Gather in the field's embrace, where valiant heroes unite,
+                    forging a tapestry of courage and resilience.</p>
+            </div>
+        </div>
     </header>
     <main>
+        <section>
+
+        </section>
 
     </main>
     <footer>

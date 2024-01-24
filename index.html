@@ -522,20 +522,20 @@
             </div>
             <hr class="max-w-6xl mx-auto mb-6 lg:mb-12">
             <div class="flex justify-between flex-col lg:flex-row gap-6">
-                <div class="border-2 w-[350px] lg:w-[474px] h-[664px] lg:h-[780px] rounded-2xl px-7 py-8 lg:px-12 lg:pt-10">
+                <div class="border-2 lg:w-[474px] h-[664px] lg:h-[780px] rounded-2xl px-7 py-8 lg:px-12 lg:pt-10">
                     <div
-                        class=" bg-[#bced6e1a] w-[292px] h-[184px] lg:w-[374px] lg:h-[216px] rounded-2xl mb-6 pl-5 lg:pl-8">
+                        class=" bg-[#bced6e1a] w-full h-[184px] lg:w-[374px] lg:h-[216px] rounded-2xl mb-6 pl-5 lg:pl-8">
                         <img class="pt-6 lg:pt-8 mb-2 lg:mb-10" src="Images/Group 1171275317.png" alt="">
                         <p class="text-para-color font-normal mb-4">Phone Number</p>
                         <h3 class="text-xl text-main-color font-extrabold">(+62) 123-321-543</h3>
                     </div>
                     <div
-                        class=" bg-[#fddb5f1a] w-[287px] h-[184px] lg:w-[374px] lg:h-[216px] rounded-2xl mb-6 pl-5 lg:pl-8">
+                        class=" bg-[#fddb5f1a] w-full h-[184px] lg:w-[374px] lg:h-[216px] rounded-2xl mb-6 pl-5 lg:pl-8">
                         <img class="pt-6 lg:pt-8 mb-2 lg:mb-10" src="Images/Group 1171275318.png" alt="">
                         <p class="text-para-color font-normal mb-4">Email : </p>
                         <h3 class="text-xl text-main-color font-extrabold">hockeys@support.com</h3>
                     </div>
-                    <div class=" bg-[#629cf31a] w-[287px] h-[184px] lg:w-[374px] lg:h-[216px] rounded-2xl pl-5 lg:pl-8">
+                    <div class=" bg-[#629cf31a] w-full h-[184px] lg:w-[374px] lg:h-[216px] rounded-2xl pl-5 lg:pl-8">
                         <img class="pt-6 lg:pt-8 mb-2 lg:mb-10" src="Images/Group 1171275321.png" alt="">
                         <p class="text-para-color font-normal mb-2 lg:mb-4">Location : </p>
                         <h3 class="text-xl text-main-color font-extrabold">152/1 Mohakhali Wireless Gate</h3>
@@ -546,40 +546,47 @@
                     <div class="flex flex-col lg:flex-row gap-6">
                         <div>
                             <h2 class="text-xl text-main-color font-bold mb-4">Your Name</h2>
-                            <input class="bg-[#13131805] rounded-xl py-5 pl-5 pr-32 lg:pr-40 mb-6" type="text"
+                            <input class="bg-[#13131805] rounded-xl py-5 pl-5 w-full lg:pr-40 lg:mb-6" type="text"
                                 placeholder="Enter your full name" name="" id="">
                         </div>
                         <div>
                             <h2 class="text-xl text-main-color font-bold mb-4">Your Email</h2>
-                            <input class="bg-[#13131805] rounded-xl py-5 pl-5 pr-32 lg:pr-40 mb-6" type="text"
+                            <input class="bg-[#13131805] rounded-xl py-5 pl-5 w-full lg:pr-40 mb-6" type="text"
                                 placeholder="Enter your full name" name="" id="">
                         </div>
                     </div>
                     <div class="flex flex-col lg:flex-row gap-6">
                         <div>
                             <h2 class="text-xl text-main-color font-bold mb-4">Subject</h2>
-                            <input class="bg-[#13131805] rounded-xl py-5 pl-5 pr-32 lg:pr-40 mb-6" type="text"
+                            <input class="bg-[#13131805] rounded-xl py-5 pl-5 w-full lg:pr-40 lg:mb-6" type="text"
                                 placeholder="Enter your full name" name="" id="">
                         </div>
                         <div>
                             <h2 class="text-xl text-main-color font-bold mb-4">Phone Number</h2>
-                            <input class="bg-[#13131805] rounded-xl py-5 pl-5 pr-32 lg:pr-40" type="text"
+                            <input class="bg-[#13131805] rounded-xl py-5 pl-5 w-full lg:pr-40 mb-6" type="text"
                                 placeholder="Enter your full name" name="" id="">
                         </div>
                     </div>
                     <div class="">
                         <h2 class="text-xl text-main-color font-bold mb-4">Message</h2>
-                        <input class="bg-[#13131805] rounded-xl pt-5 pl-5 pb-[157px] lg:pb-[327px] pr-[130px] lg:pr-[550px]" type="text"
-                                placeholder="Write your message" name="" id="">
+                        <input class="bg-[#13131805] rounded-xl pt-5 pl-5 pb-[157px] lg:pb-[327px] w-full lg:pr-[550px]"
+                            type="text" placeholder="Write your message" name="" id="">
                     </div>
                     <div class="">
-                        <button class="rounded-xl btn gap-10px mt-6 h-[75px] w-[335px] lg:w-[760px] bg-register-color text-xl font-bold px-6 py-[15px] text-white">Send Message</button>
+                        <button
+                            class="rounded-xl btn gap-10px mt-6 h-[75px] w-full lg:w-[760px] bg-register-color text-xl font-bold px-6 py-[15px] text-white">Send
+                            Message</button>
                     </div>
                 </div>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-[#13131805] h-[150px] mt-12 rounded-xl">
+                <h2 class="text-main-color text-2xl font-extrabold mb-6">Social Media</h2>
+                <img class="w-[174px]" src="Images/Social (1).svg" alt="">
+            </div>
         </section>
 
     </main>
-    <footer class="footer mt-24 p-10 lg:px-32 lg:py-24 bg-main-color">
+    <footer class="footer mx-auto mt-24 p-10 lg:pt-24 bg-main-color">
         <div class="flex mx-auto justify-center flex-col lg:flex-row lg:gap-40">
             <div class="text-center lg:text-left mb-10">
                 <div>
